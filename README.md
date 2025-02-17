@@ -1,10 +1,12 @@
-# playlister
-Programa que converte comentários de playlists no youtube em playlists no spotify
+# Playlister  
+**Converta comentários de playlists do YouTube em playlists no Spotify**  
 
-Porém, para funcionar, é precisso que a sua playlist no youtube tenha na descrição ou nos comentários algo do tipo:
-'''
+## Como funciona?  
+Este programa permite transformar playlists do YouTube em playlists do Spotify, desde que a playlist do YouTube contenha na descrição ou nos comentários algo como:  
+
+```
 0:00 Lady Gaga - Just Dance
-2:48 Taio Cruz - Dynamite 
+2:48 Taio Cruz - Dynamite
 5:54 Jason Derulo - In My Head
 8:58 Rihanna - Disturbia
 12:24 Nicki Minaj - Starships
@@ -16,10 +18,16 @@ Porém, para funcionar, é precisso que a sua playlist no youtube tenha na descr
 32:46 Kid Cudi - Day 'N' Nite
 35:54 Rihanna - Rude Boy
 39:26 Iyaz - Replay
-42:24 Flo Rida - My House 
+42:24 Flo Rida - My House
 45:32 Usher - Yeah
-'''
+```
 
-Assim, ao acessar o site, primeiro você deve logar com sua conta no spotify, e depois colocar a lista de músicas como está acima, dar o nome da playlist, assim, será buscada cada linha no spotify e os primeiros resultados serão adicionadas à playlist.
 
-Não se esqueça de modificar o arquivo '''.env'''.
+## Como usar?  
+1. Acesse o site e faça login com sua conta do Spotify.  
+2. Copie e cole a lista de músicas no formato acima.  
+3. Escolha um nome para a sua nova playlist.  
+4. O sistema buscará cada música no Spotify e adicionará os primeiros resultados encontrados à sua playlist.  
+
+## Configuração necessária  
+Antes de executar, edite o arquivo `.env` com suas credenciais corretamente.  
