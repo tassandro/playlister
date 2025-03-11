@@ -27,7 +27,7 @@ Este programa permite transformar playlists do YouTube em playlists do Spotify, 
 1. Acesse o site e faça login com sua conta do Spotify.  
 2. Copie e cole a lista de músicas no formato acima.  
 3. Escolha um nome para a sua nova playlist.  
-4. O sistema buscará cada música no Spotify (usando a API do Spotify) e adicionará os primeiros resultados encontrados à sua playlist.  
+4. O sistema buscará cada música no Spotify e adicionará os primeiros resultados encontrados à sua playlist (usando a API do Spotify).  
 
 ## Configuração necessária  
-Antes de executar, edite o arquivo `.env` com suas credenciais corretamente (correspondentes a API do Spotify(.  
+Antes de executar, edite o arquivo `.env` com suas credenciais corretamente (correspondentes a API do Spotify).
